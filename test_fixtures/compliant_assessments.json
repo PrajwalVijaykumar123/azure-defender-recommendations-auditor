@@ -1,0 +1,26 @@
+[
+  {
+    "id": "/subscriptions/sub1/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1/providers/Microsoft.Security/assessments/a1",
+    "properties": {
+      "status": {"code": "Healthy"},
+      "resourceDetails": {"Id": "/subscriptions/sub1/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1"},
+      "metadata": {"displayName": "System updates should be installed on your machines", "severity": "Medium", "categories": ["Compute"]}
+    }
+  },
+  {
+    "id": "/subscriptions/sub1/providers/Microsoft.Security/assessments/a2",
+    "properties": {
+      "status": {"code": "Healthy"},
+      "resourceDetails": {"Id": "/subscriptions/sub1"},
+      "metadata": {"displayName": "MFA should be enabled on accounts with owner permissions on subscriptions", "severity": "Medium", "categories": ["Identity and access"]}
+    }
+  },
+  {
+    "id": "/subscriptions/sub1/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityGroups/nsg1/providers/Microsoft.Security/assessments/a3",
+    "properties": {
+      "status": {"code": "Healthy"},
+      "resourceDetails": {"Id": "/subscriptions/sub1/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityGroups/nsg1"},
+      "metadata": {"displayName": "Management ports should be closed on your virtual machines", "severity": "High", "categories": ["Networking"]}
+    }
+  }
+]

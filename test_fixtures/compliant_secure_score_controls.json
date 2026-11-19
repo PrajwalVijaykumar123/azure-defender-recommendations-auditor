@@ -1,0 +1,4 @@
+[
+  {"name": "c1", "properties": {"displayName": "Enable MFA", "weight": 10, "score": {"current": 9.0, "max": 10.0}}},
+  {"name": "c2", "properties": {"displayName": "Apply system updates", "weight": 6, "score": {"current": 6.0, "max": 6.0}}}
+]

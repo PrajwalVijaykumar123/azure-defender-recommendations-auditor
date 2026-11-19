@@ -1,0 +1,34 @@
+[
+  {
+    "id": "/subscriptions/sub1/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityGroups/nsg1/providers/Microsoft.Security/assessments/b1",
+    "properties": {
+      "status": {"code": "Unhealthy"},
+      "resourceDetails": {"Id": "/subscriptions/sub1/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityGroups/nsg1"},
+      "metadata": {"displayName": "Management ports should be closed on your virtual machines", "severity": "High", "categories": ["Networking"]}
+    }
+  },
+  {
+    "id": "/subscriptions/sub1/providers/Microsoft.Security/assessments/b2",
+    "properties": {
+      "status": {"code": "Unhealthy"},
+      "resourceDetails": {"Id": "/subscriptions/sub1"},
+      "metadata": {"displayName": "MFA should be enabled on accounts with owner permissions on subscriptions", "severity": "Medium", "categories": ["Identity and access"]}
+    }
+  },
+  {
+    "id": "/subscriptions/sub1/providers/Microsoft.Security/assessments/b3",
+    "properties": {
+      "status": {"code": "Unhealthy"},
+      "resourceDetails": {"Id": "/subscriptions/sub1"},
+      "metadata": {"displayName": "Guest accounts with owner permissions should be removed", "severity": "Medium", "categories": ["Identity and access"]}
+    }
+  },
+  {
+    "id": "/subscriptions/sub1/providers/Microsoft.Security/assessments/b4",
+    "properties": {
+      "status": {"code": "Healthy"},
+      "resourceDetails": {"Id": "/subscriptions/sub1"},
+      "metadata": {"displayName": "Diagnostic logs should be enabled", "severity": "Low", "categories": ["Identity and access"]}
+    }
+  }
+]
